@@ -8,7 +8,7 @@
     
     <meta name="description" content="">
     
-    <link rel="preload" href="/louis-moocUI/assets/css/0.styles.c97d1c23.css" as="style"><link rel="preload" href="/louis-moocUI/assets/js/app.e3e8f4d5.js" as="script"><link rel="preload" href="/louis-moocUI/assets/js/2.63088e65.js" as="script"><link rel="preload" href="/louis-moocUI/assets/js/8.722e1232.js" as="script"><link rel="prefetch" href="/louis-moocUI/assets/js/3.1a905c20.js"><link rel="prefetch" href="/louis-moocUI/assets/js/4.9e234b7e.js"><link rel="prefetch" href="/louis-moocUI/assets/js/5.e959adb8.js"><link rel="prefetch" href="/louis-moocUI/assets/js/6.5cb76d95.js"><link rel="prefetch" href="/louis-moocUI/assets/js/7.0285c053.js"><link rel="prefetch" href="/louis-moocUI/assets/js/9.b033942d.js">
+    <link rel="preload" href="/louis-moocUI/assets/css/0.styles.c97d1c23.css" as="style"><link rel="preload" href="/louis-moocUI/assets/js/app.867459a5.js" as="script"><link rel="preload" href="/louis-moocUI/assets/js/2.63088e65.js" as="script"><link rel="preload" href="/louis-moocUI/assets/js/8.7182950e.js" as="script"><link rel="prefetch" href="/louis-moocUI/assets/js/3.1a905c20.js"><link rel="prefetch" href="/louis-moocUI/assets/js/4.9e234b7e.js"><link rel="prefetch" href="/louis-moocUI/assets/js/5.e959adb8.js"><link rel="prefetch" href="/louis-moocUI/assets/js/6.5cb76d95.js"><link rel="prefetch" href="/louis-moocUI/assets/js/7.0285c053.js"><link rel="prefetch" href="/louis-moocUI/assets/js/9.b033942d.js">
     <link rel="stylesheet" href="/louis-moocUI/assets/css/0.styles.c97d1c23.css">
   </head>
   <body>
@@ -28,17 +28,22 @@
 </code></pre></div><h4 id="使用组件库"><a href="#使用组件库" class="header-anchor">#</a> 使用组件库</h4> <blockquote><p>在 main.js 中引用组件库</p></blockquote> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">//全部引入</span>
 <span class="token keyword">import</span> <span class="token string">'louis-mooc-ui/dist/css/index.css'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token constant">LSMUI</span> <span class="token keyword">from</span> <span class="token string">'louis-mooc-ui'</span><span class="token punctuation">;</span>
-Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token constant">LSMUI</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token constant">LSMUI</span><span class="token punctuation">)</span>
 
-<span class="token comment">//按需引入</span>
+<span class="token comment">//按需引用 Demo 组件</span>
 <span class="token keyword">import</span> <span class="token string">'louis-mooc-ui/dist/css/demo.css'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span>Demo<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'louis-mooc-ui'</span><span class="token punctuation">;</span>
-Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>Demo<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Demo <span class="token keyword">from</span> <span class="token string">'louis-mooc-ui/dist/demo.umd.js'</span><span class="token punctuation">;</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>Demo<span class="token punctuation">)</span>
+
+<span class="token comment">//按需引用 Card 组件 </span>
+<span class="token keyword">import</span> <span class="token string">'louis-mooc-ui/dist/css/card.css'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> Card <span class="token keyword">from</span> <span class="token string">'louis-mooc-ui/dist/card.umd.js'</span><span class="token punctuation">;</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>Card<span class="token punctuation">)</span>
 </code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/louis-moocUI/componentDocs/card.html">
         Card
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/louis-moocUI/assets/js/app.e3e8f4d5.js" defer></script><script src="/louis-moocUI/assets/js/2.63088e65.js" defer></script><script src="/louis-moocUI/assets/js/8.722e1232.js" defer></script>
+    <script src="/louis-moocUI/assets/js/app.867459a5.js" defer></script><script src="/louis-moocUI/assets/js/2.63088e65.js" defer></script><script src="/louis-moocUI/assets/js/8.7182950e.js" defer></script>
   </body>
 </html>

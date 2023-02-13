@@ -15,8 +15,13 @@ import 'louis-mooc-ui/dist/css/index.css';
 import LSMUI from 'louis-mooc-ui';
 Vue.use(LSMUI)
 
-//按需引用
+//按需引用 Demo 组件
 import 'louis-mooc-ui/dist/css/demo.css';
-import {Demo} from 'louis-mooc-ui';
+import Demo from 'louis-mooc-ui/dist/demo.umd.js';
 Vue.use(Demo)
+
+//按需引用 Card 组件 
+import 'louis-mooc-ui/dist/css/card.css';
+import Card from 'louis-mooc-ui/dist/card.umd.js';
+Vue.use(Card)
 ```
