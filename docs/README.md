@@ -1,22 +1,22 @@
-# louis-mooc-ui 组件库
+# 快速开始
 
-### 快速开始
-
-#### 1.安装组件库
+#### 安装组件库
 
 ```bash
 npm i louis-mooc-ui
 ```
 
-#### 2.引用组件库
+#### 使用组件库
+> 在 main.js 中引用组件库
+
 ```javascript
 //全部引入
 import 'louis-mooc-ui/dist/css/index.css';
 import LSMUI from 'louis-mooc-ui';
-Vue.use(LSMUI)
+Vue.use(LSMUI);
 
-//按需引用
+//按需引入
 import 'louis-mooc-ui/dist/css/demo.css';
 import {Demo} from 'louis-mooc-ui';
-Vue.use(Demo)
+Vue.use(Demo);
 ```
